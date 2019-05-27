@@ -32,10 +32,13 @@
 }
 /* tabmenu - 활성화 */
 .tabmenu > .on{
-
+	z-index: 1;
 }
 .tabmenu > .on > a{
-
+	border-color:#222;
+	border-bottom-color:transparent;
+	background-color: #fff;
+	font-weight:bold;
 }
 .tabcnt.on{
 	display:block;
